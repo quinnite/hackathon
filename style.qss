@@ -1,0 +1,65 @@
+/* General window background */
+QMainWindow {
+    background-color: #2E3440;
+}
+
+/* QLabel for imageLabel */
+QLabel#imageLabel {
+    background-color: #3B4252;
+    border: 2px solid #4C566A;
+    border-radius: 8px;
+    color: #D8DEE9;
+}
+
+/* Buttons styling */
+QPushButton {
+    background-color: #4C566A;
+    color: #D8DEE9;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #5E81AC;
+}
+
+QPushButton:checked {
+    background-color: #81A1C1;
+    color: #2E3440;
+}
+
+/* Sliders */
+QSlider::groove:horizontal {
+    border: 1px solid #4C566A;
+    height: 8px;
+    background: #434C5E;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background: #88C0D0;
+    border: 1px solid #4C566A;
+    width: 16px;
+    height: 16px;
+    margin: -4px 0;
+    border-radius: 8px;
+}
+
+QSlider::handle:horizontal:hover {
+    background: #81A1C1;
+}
+
+/* QLabel text styling */
+QLabel {
+    color: #D8DEE9;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Status bar */
+QStatusBar {
+    background-color: #3B4252;
+    color: #D8DEE9;
+}
